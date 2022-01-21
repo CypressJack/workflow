@@ -52,6 +52,15 @@ cat id_rsa.pub
 - Merge conflicts and what to do to avoid them
 - General rules to make life with Git easier and more enjoyable for everyone
 
+# If we have extra time
+- NodeJS
+- NVM
+- NPM Packages
+- Package.json
+- Package-lock.json
+- NPM commands
+- Project file structures
+
 
 
 
