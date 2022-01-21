@@ -43,6 +43,7 @@ cat id_rsa.pub
 - Cloning an existing repository to your computer
 - Commiting code and pushing it to a repository
 - How to write proper commits
+- Using Git with VSCode
 - What a .gitignore does
 - How to collaborate with a team on a project
 - What branches are and how to use them
