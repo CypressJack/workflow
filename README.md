@@ -36,4 +36,24 @@ cat id_rsa.pub
 - Head to SSH and GPG keys in your account and click 'New SSH Key'
 - Paste the key you just copied from your terminal
 - Give it a name so you know which computer it is
+- You can now use your GitHub account on your computer without needing to type in a password
+
+# Different aspects we will cover
+- Creating a new repository
+- Cloning an existing repository to your computer
+- Commiting code and pushing it to a repository
+- How to write proper commits
+- What a .gitignore does
+- How to collaborate with a team on a project
+- What branches are and how to use them
+- Importance of secrets and using environment variables
+- Order of operations and keeping everyones code in sync
+- Pull requests and how they work
+- Merge conflicts and what to do to avoid them
+- General rules to make life with Git easier and more enjoyable for everyone
+
+
+
+
+
 
