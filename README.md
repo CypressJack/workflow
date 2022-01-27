@@ -41,13 +41,6 @@ cat id_rsa.pub
 # WSL
 Windows Subsystem for Linux is a Windows Application installed from the Microsoft store which allows you to run a virtualized headless Linux installation on your Windows PC without a bunch of extra software or configuration. You will need a PC that supports CPU level virtualization. In short, after you install WSL you will have a Linux terminal you can open just like the Windows command prompt and run any Linux terminal applications or use it for development.
 
-# NVM
-### Note: NVM is for MacOS & Linux shell, there is a fork that is a windows version but I haven't used it
-[NVM](https://github.com/nvm-sh/nvm) version manager for NodeJS and NPM that let's you install many versions of NodeJS on your system and quickly pick which to use for best compatibility with a project.
-## Install NVM
-```
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-```
 # Common Git lingo and what they mean
 - Repo/repository: The folder of all the files, the 'remote' repo is the version stored on GitHub and the 'local' version is the one you've downloaded to you computer
 - Commit: Every so often when you make a change to a file, you make a commit, what this does is lets you write a short message on what you did and provides a spot you can roll the file back to if you break things. Usually commits are done as frequently as is reasonably possible, every time you successfully write a chunk of code.
@@ -70,7 +63,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 4. If you are granted access on github to this project you can now commit and push changes to it
 5. I use this method to create my own repo's by creating it on github, cloning it to my pc, then I can just start creating files and committing
 
-# Commiting workflow
+# Committing workflow
 - Doing commits is actually a simple process to follow
 1. Write code and make changes to your files
 2. Open a command line in the folder of your files
@@ -80,6 +73,13 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 6. Use `git push` to push your commit and changes to the remote server
 7. Rinse and repeat
 
+# NVM
+### Note: NVM is for MacOS & Linux shell, there is a fork that is a windows version but I haven't used it
+[NVM](https://github.com/nvm-sh/nvm) version manager for NodeJS and NPM that let's you install many versions of NodeJS on your system and quickly pick which to use for best compatibility with a project.
+## Install NVM
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+```
 
 # Different aspects we will cover
 - Creating a new repository
