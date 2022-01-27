@@ -64,7 +64,7 @@ Windows Subsystem for Linux is a Windows Application installed from the Microsof
 5. I use this method to create my own repo's by creating it on github, cloning it to my pc, then I can just start creating files and committing
 
 # Committing workflow
-- Doing commits is actually a simple process to follow
+- Doing commits is actually a very simple process
 1. Write code and make changes to your files
 2. Open a command line in the folder of your files
 3. Use `git add [filename] [filename] [filename]` to add files to the 'staging area'
@@ -72,6 +72,21 @@ Windows Subsystem for Linux is a Windows Application installed from the Microsof
 5. Use `git commit -m "your commit message goes here in the quotes"`
 6. Use `git push` to push your commit and changes to the remote server
 7. Rinse and repeat
+
+# Switching branches
+- Every project starts with a branch called 'main' which you are on by default
+- The main branch is like your production branch, it's the best working version of your code, and new branches are only merged into it once their code is verified to work properly
+1. Create a new branch and switch to it `git checkout -b my-new-branch`
+2. Now go through the normal committing procedure, and the first time you `git push` this new branch, git will spit back a line to you that you need to copy and paste on the command line, it's just so you create the branch on the server and push the code to it
+3. Once your branch is finished, you submit a pull request on github for the project admin to review the changes and merge into the the main branch
+
+# Git pull
+- Once a pull request has been merged to the main branch, on your machine you have to `git checkout main` then `git pull` from the remote repository so that merged code gets updated to your local folder
+- From there you can create a new branch and start adding new things
+
+# Golden rules
+- If two people work on the same file or lines of code on two different branches and we try to merge them automatically, it's not going to work and we'll have to manually select each line that is correct and which is wrong which is a huge waste of time. It has to be avoided at all costs
+
 
 # NVM
 ### Note: NVM is for MacOS & Linux shell, there is a fork that is a windows version but I haven't used it
