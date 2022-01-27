@@ -65,7 +65,7 @@ Windows Subsystem for Linux is a Windows Application installed from the Microsof
 
 # Committing workflow
 - Doing commits is actually a very simple process
-1. Write code and make changes to your files
+1. Write code and make changes to your files, save the file
 2. Open a command line in the folder of your files
 3. Use `git add [filename] [filename] [filename]` to add files to the 'staging area'
 4. Shorthand to add all changed files is `git add .`
