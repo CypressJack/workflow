@@ -85,7 +85,7 @@ Windows Subsystem for Linux is a Windows Application installed from the Microsof
 - From there you can create a new branch and start adding new things
 
 # Golden rules
-- If two people work on the same file or lines of code on two different branches and we try to merge them automatically, it's not going to work and we'll have to manually select each line that is correct and which is wrong which is a huge waste of time. It has to be avoided at all costs
+- If two people work on the same file or lines of code on two different branches and we try to merge them automatically, it's not going to work and we'll have to manually select each line that is correct and which is wrong and is a huge waste of time. It has to be avoided at all costs
 
 
 # NVM
