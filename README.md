@@ -63,9 +63,22 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 - All we have to do to avoid this is to communicate which files each person is in charge of/working. To help this, projects are typically broken down in to lots of seperate files, that way each person works in their own file
 - Typically once the work is finished, everyone stops working on their files and one person takes the functionality created from them and integrates them into the main larger project files, not by copy and pasteing but importing them etc.
 
-# Commiting workflow
-- Doing commits is actually a simple process to follow and helps out a ton
+# Downloading a repo from Github for you to work on and push changes to
+1. Now that you have set up git ssh on your computer, when you go to a repo online you can click the green code button and select the SSH option, copy that line
+2. Open your command line in a folder where you want to keep your projects
+3. `git clone [paste the url here]` will create a folder and download the repo to it
+4. If you are granted access on github to this project you can now commit and push changes to it
+5. I use this method to create my own repo's by creating it on github, cloning it to my pc, then I can just start creating files and committing
 
+# Commiting workflow
+- Doing commits is actually a simple process to follow
+1. Write code and make changes to your files
+2. Open a command line in the folder of your files
+3. Use `git add [filename] [filename] [filename]` to add files to the 'staging area'
+4. Shorthand to add all changed files is `git add .`
+5. Use `git commit -m "your commit message goes here in the quotes"`
+6. Use `git push` to push your commit and changes to the remote server
+7. Rinse and repeat
 
 
 # Different aspects we will cover
