@@ -2,7 +2,7 @@
 Workflow guide for the Stikky Dev Team when it comes to Git & Collaboration
 
 # Summary
-Git can appear overly complex to use at first glance, but with a little practice it is the single most powerful tool a team can use for collaboration when working on project.
+Git can appear overly complex to use at first glance, but with a little practice it is the best tool a team can use for collaboration when working on code project
 
 # Setup
 ## Installation
